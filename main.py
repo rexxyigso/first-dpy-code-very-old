@@ -12,8 +12,8 @@ with open("configuration.json", "r") as config:
     prefix = data["prefix"]
 intents = discord.Intents.all()
 bot = commands.Bot(prefix, intents = intents)
-ending_note = """made with "💖" by @n's ishan#0658 """
-bdtime = pytz.timezone('Asia/Dhaka')
+ending_note = """made with "💖" by @n's rexxy/seek """
+bdtime = pytz.timezone('Sweden/Stockholm')
 now = datetime.datetime.now(bdtime)
 inow  = datetime.datetime.now()
 bot.owner_ids = 638073011236372480 , 699204389805490216 , 728538577520295996 , 161633683177078785
