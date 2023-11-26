@@ -1,0 +1,10 @@
+discord.py
+jishaku
+PyNaCl
+asyncio
+wavelink
+aiohttp
+motor
+pytz
+humanfriendly
+requests
