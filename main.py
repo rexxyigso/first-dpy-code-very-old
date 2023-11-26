@@ -12,7 +12,7 @@ with open("configuration.json", "r") as config:
     prefix = data["prefix"]
 intents = discord.Intents.all()
 bot = commands.Bot(prefix, intents = intents)
-ending_note = """made with "💖" by @n's rexxy/seek """
+ending_note = """made with "💖" by @n's seek """
 bdtime = pytz.timezone('Sweden/Stockholm')
 now = datetime.datetime.now(bdtime)
 inow  = datetime.datetime.now()
